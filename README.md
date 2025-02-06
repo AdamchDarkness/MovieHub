@@ -5,40 +5,6 @@ Application web de gestion de films créée avec React et connectée à l’API 
 -	De gérer une liste de favoris (mise à jour en localStorage).
 Tous le projet a été réaliser en React et le style en utilisant tailwindcss .
 ## 1. Structure du projet
-├── public \
-│   ├── index.html \
-│   └── ... \
-├── src/ \
-│   ├── App.jsx \
-│   ├── App.css \ 
-│   ├── index.jsx \
-│   ├── Pages/ \
-│   │   ├── Home/ \
-│   │   │   ├── Home.jsx \
-│   │   ├── Movies/ \
-│   │   │   └── Movies.jsx \
-│   │   └── Favorites/ \
-│   │       └── Favorites.jsx \
-│   ├── Components/ \
-│   │   ├── Navbar/ \
-│   │   │   └── Navbar.jsx \
-│   │   ├── Hero/ \
-│   │   │   └── Hero.jsx \
-│   │   ├── Caroussel/ \
-│   │   │   └── Caroussel.jsx \
-│   │   ├── MoviesList/ \
-│   │   │   └── MoviesList.jsx \
-│   │   ├── PaginatedMovies/ \
-│   │   │   └── PaginatedMovies.jsx \
-│   │   ├── MovieCard/ \
-│   │   │   └── MovieCard.jsx \
-│   │   ├── Loading/ \
-│   │   │   └── Loading.jsx \
-│   │   └── SearchMovie/ \
-│   │       └── SearchMovie.jsx \
-│   └── ... \
-├── ... \
-
 ### 1.1. App.js
 Le composant racine de l’application. Il gère les routes principales grâce à React Router :
 •	Home : la page d’accueil (liste de films populaires, top rated, etc.).
@@ -70,9 +36,9 @@ Implémente aussi la gestion des favoris (stockage dans localStorage).
 Page de détail d’un film :
 •	Récupère l’ID du film depuis l’URL (useParams()).
 •	Va chercher les détails du film via l’API TMDB, puis affiche :
-o	le titre, la description, la date de sortie, la durée, l’évaluation, etc.
-o	le casting (requête credits) : affiche les principaux acteurs et leurs rôles.
-o	les films similaires (requête similar).
+  o	le titre, la description, la date de sortie, la durée, l’évaluation, etc.
+  o	le casting (requête credits) : affiche les principaux acteurs et leurs rôles.
+  o	les films similaires (requête similar).
 Cette page propose aussi un bouton Add to Favorites ou Remove from Favorites.
 ### 1.2.6. SearchMovie.js
 Un composant (optionnel) de barre de recherche :
