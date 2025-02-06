@@ -5,7 +5,7 @@ Application web de gestion de films créée avec React et connectée à l’API 
 -	De gérer une liste de favoris (mise à jour en localStorage).
 Tous le projet a été réaliser en React et le style en utilisant tailwindcss .
 ## 1. Structure du projet
-├── public/
+├── public/ \
 │   ├── index.html
 │   └── ...
 ├── src/
