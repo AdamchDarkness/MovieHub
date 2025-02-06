@@ -5,6 +5,7 @@ Application web de gestion de films créée avec React et connectée à l’API 
 -	De gérer une liste de favoris (mise à jour en localStorage).
 Tous le projet a été réaliser en React et le style en utilisant tailwindcss .
 ## 1. Structure du projet
+![image](https://github.com/user-attachments/assets/589d9f84-1bb9-43fa-b46d-dbf7e73919e9)
 ### 1.1. App.js
 Le composant racine de l’application. Il gère les routes principales grâce à React Router :
 •	Home : la page d’accueil (liste de films populaires, top rated, etc.).
