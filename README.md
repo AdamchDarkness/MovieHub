@@ -47,7 +47,7 @@ Un composant (optionnel) de barre de recherche : \
 •	Permet la saisie du titre d’un film. \
 •	Fait appel à l’API search/movie de TMDB pour des suggestions. \
 •	Gère un historique de recherche searchHistory stocké dans le localStorage. \
-•	Propose aussi un tri par popularité, évaluation, date de sortie, etc. \
+•	Propose aussi un tri par popularité, évaluation, date de sortie, etc. 
 ### 1.2.7. PaginatedMovies.js
 Affiche une liste de films avec un système de pagination géré localement : \
 •	currentPage (état local) qui change quand on clique sur Next/Previous. \
