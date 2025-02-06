@@ -5,39 +5,39 @@ Application web de gestion de films créée avec React et connectée à l’API 
 -	De gérer une liste de favoris (mise à jour en localStorage).
 Tous le projet a été réaliser en React et le style en utilisant tailwindcss .
 ## 1. Structure du projet
-├── public/ \
-│   ├── index.html
-│   └── ...
-├── src/
-│   ├── App.jsx
-│   ├── App.css
-│   ├── index.jsx
-│   ├── Pages/
-│   │   ├── Home/
-│   │   │   ├── Home.jsx
-│   │   ├── Movies/
-│   │   │   └── Movies.jsx
-│   │   └── Favorites/
-│   │       └── Favorites.jsx
-│   ├── Components/
-│   │   ├── Navbar/
-│   │   │   └── Navbar.jsx
-│   │   ├── Hero/
-│   │   │   └── Hero.jsx
-│   │   ├── Caroussel/
-│   │   │   └── Caroussel.jsx
-│   │   ├── MoviesList/
-│   │   │   └── MoviesList.jsx
-│   │   ├── PaginatedMovies/
-│   │   │   └── PaginatedMovies.jsx
-│   │   ├── MovieCard/
-│   │   │   └── MovieCard.jsx
-│   │   ├── Loading/
-│   │   │   └── Loading.jsx
-│   │   └── SearchMovie/
-│   │       └── SearchMovie.jsx
-│   └── ...
-├── ...
+├── public \
+│   ├── index.html \
+│   └── ... \
+├── src/ \
+│   ├── App.jsx \
+│   ├── App.css \ 
+│   ├── index.jsx \
+│   ├── Pages/ \
+│   │   ├── Home/ \
+│   │   │   ├── Home.jsx \
+│   │   ├── Movies/ \
+│   │   │   └── Movies.jsx \
+│   │   └── Favorites/ \
+│   │       └── Favorites.jsx \
+│   ├── Components/ \
+│   │   ├── Navbar/ \
+│   │   │   └── Navbar.jsx \
+│   │   ├── Hero/ \
+│   │   │   └── Hero.jsx \
+│   │   ├── Caroussel/ \
+│   │   │   └── Caroussel.jsx \
+│   │   ├── MoviesList/ \
+│   │   │   └── MoviesList.jsx \
+│   │   ├── PaginatedMovies/ \
+│   │   │   └── PaginatedMovies.jsx \
+│   │   ├── MovieCard/ \
+│   │   │   └── MovieCard.jsx \
+│   │   ├── Loading/ \
+│   │   │   └── Loading.jsx \
+│   │   └── SearchMovie/ \
+│   │       └── SearchMovie.jsx \
+│   └── ... \
+├── ... \
 
 ### 1.1. App.js
 Le composant racine de l’application. Il gère les routes principales grâce à React Router :
