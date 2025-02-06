@@ -1,8 +1,8 @@
 # MovieHub
-Application web de gestion de films créée avec React et connectée à l’API TMDB (The Movie Database). Elle permet :
-• De consulter les films (avec possibilité de filtrer ou d’effectuer une recherche).
-•	De voir le détail de chaque film (description, casting, films similaires).
-•	De gérer une liste de favoris (mise à jour en localStorage).
+Application web de gestion de films créée avec React et connectée à l’API TMDB (The Movie Database). Elle permet : \
+• De consulter les films (avec possibilité de filtrer ou d’effectuer une recherche). \
+•	De voir le détail de chaque film (description, casting, films similaires). \
+•	De gérer une liste de favoris (mise à jour en localStorage). \
 Tous le projet a été réaliser en React et le style en utilisant tailwindcss . 
 
 ![image](https://github.com/user-attachments/assets/25063fed-f202-49d7-9ae3-21a11d33bcb7)
